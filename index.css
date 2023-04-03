@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    background:url(op2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.container {
+    width: 1200px;
+    height: 80px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #101110;
+    cursor: pointer;
+
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e1b1b;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.container a{
+    text-decoration: none;
+    color:#1d1f1e;
+}
+.container a:hover{
+    color: #51a933;
+}
+
+
+.container .btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #101110;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #53514e;
+    color: #08d608;
+}
+
+.container .btn:hover {
+    background-color: #1bae24;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.content {
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 100px
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #232528;
+    line-height: 40px;
+    padding-top: 150px; 
+    width: 60%;
+}
+.content span{
+    font-size: 55px;
+}
+.content .btn {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid #201e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #262424;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.content .btn:hover {
+    background-color: #1bae24;
+    color: #101110;
+    
+}
