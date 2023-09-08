@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    
+}
+
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(251, 244, 244);
+    margin-bottom: 20px;
+    text-decoration: underline;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 45px 0px;
+    display: flex;
+
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background-color: rgb(99, 162, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(23, 24, 26);
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: rgb(18, 17, 17);
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background:transparent;
+}
+.contactForm h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.contactForm .inputBox{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;  
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+

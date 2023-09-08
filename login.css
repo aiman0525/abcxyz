@@ -12,6 +12,9 @@
     min-width: 100%;
     min-height: 100%;
 }
+::placeholder{
+    color: black;
+}
 
 .container {
 
@@ -47,7 +50,7 @@
     width: 90%;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 5px 0px;
     font-size: 17px;
 }

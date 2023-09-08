@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+*{
+    
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+
+}
+html{
+    font-size: 62.5%;
+}
+h1 {
+    text-align: center;
+    border: 2px ;
+    color: #1a171f;
+    padding: 20px;
+    background-color: rgb(232, 230, 233);
+    margin: 0px 0px;
+    font-size: 3.6rem;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    
+}
+main{
+    max-width: 1500px;
+    width: 95%;
+    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    flex: 1 1 210px;
+    
+    
+}
+main .card{
+    max-width: 250px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 450px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    
+}
+
+main .card .image{
+    height:50%;
+    margin-bottom: 0px;
+   
+}
+
+main .card .image img{
+    width:100%;
+    height: 90%;
+    object-fit: cover;
+}
+main .card .caption{
+    padding-left: 1em;
+    text-align: left;
+    line-height: 3em;
+    height: 30%;
+    
+}
+main .card .caption p{
+    font-size: 1.5rem;
+}

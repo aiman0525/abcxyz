@@ -13,14 +13,14 @@ body{
 .about{
     background: url(about_bg.jpg) no-repeat left;
     background-size: 50%;
-    background-color: #8d9a93;
+    background-color: #453265;
     overflow: hidden;
     padding: 0px 50px;
 }
 .inner-section{
     width: 55%;
     float: right;
-    background-color: #98b09b;
+    background-color: #7a6e8e;
     padding: 80px;
     box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
 }
@@ -31,13 +31,13 @@ body{
 }
 .text{
     font-size: 15px;
-    font-weight: 500;
-    color: #676565;
+    font-weight: bold;
+    color: #161515;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
 }
-.skills button{
+.btn button{
     font-size: 22px;
     text-align: center;
     letter-spacing: 2px;
@@ -45,14 +45,14 @@ body{
     border-radius: 20px;
     padding: 8px;
     width: 200px;
-    background-color: #71cf7b;
+    background-color: #42247a;
     color: white;
     cursor: pointer;
 }
-.skills button:hover{
+.btn button:hover{
     transition: 1s;
     background-color: #ecf5f5;
-    color: #0ab727;
+    color: #7b57bf;
 }
 @media screen and (max-width:1200px){
     .inner-section{
@@ -76,7 +76,7 @@ body{
     .inner-section{
         padding: 60px;
     }
-    .skills button{
+    .btn button{
         font-size: 19px;
         padding: 5px;
         width: 160px;
